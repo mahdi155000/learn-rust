@@ -8,7 +8,7 @@ fn main() {
     println!("The value of five is: '{}'", x);
     println!("The value of function five is: '{}'", five());
 }
-
+// this is my first comment
 fn test_function(x: i16)
 {
     println!("The value of x is: '{}'", x);
