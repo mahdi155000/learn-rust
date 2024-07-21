@@ -20,5 +20,17 @@ fn main() {
     } else {
         println!("Number is not divisible by 4, 3 or 2");
     }
+
+    // assing a variable into if condition
+    // the variable type must be the same as each other
+    let condition = true;
+    let number = if condition
+    {
+        5
+    } else {
+        6
+    };
+
+    println!("The value of the number is: {}", number);
 }
 
