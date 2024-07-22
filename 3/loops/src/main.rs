@@ -20,11 +20,19 @@ fn main() {
     println!("LIFTOFF!!!\n\n");
 
 
-    let tuple_a = [10, 20, 30, 40, 50];
+    let array_a = [10, 20, 30, 40, 50];
     let mut index = 0;
 
+    println!("While loop result: ");
     while index < 5 {
-        println!("The value is: '{}'", tuple_a[index]);
+        println!("The value is: '{}'", array_a[index]);
         index += 1;
+    }
+
+    // For loop
+    println!("\nFor loop result: ");
+    for item in array_a.iter()
+    {
+        println!("The value is: '{}'", item);
     }
 }
