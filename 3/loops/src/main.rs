@@ -16,4 +16,15 @@ fn main() {
         println!("{}!", while_break);
         while_break -= 1;
     }
+
+    println!("LIFTOFF!!!\n\n");
+
+
+    let tuple_a = [10, 20, 30, 40, 50];
+    let mut index = 0;
+
+    while index < 5 {
+        println!("The value is: '{}'", tuple_a[index]);
+        index += 1;
+    }
 }
