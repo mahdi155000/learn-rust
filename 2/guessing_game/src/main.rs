@@ -12,6 +12,8 @@ fn main()
 
     println!("The secret number is: '{}'", secret_number);
 
+    loop
+    {
 
     println!("Please enter your guess: ");
 
@@ -29,5 +31,6 @@ fn main()
         Ordering::Less => println!("Too small"),
         Ordering::Equal => println!("You win!"),
         Ordering::Greater => println!("Too big"),
+    }
     }
 }
