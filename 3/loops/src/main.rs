@@ -21,6 +21,7 @@ fn main() {
 
 
     let array_a = [10, 20, 30, 40, 50];
+
     let mut index = 0;
 
     println!("While loop result: ");
@@ -35,4 +36,11 @@ fn main() {
     {
         println!("The value is: '{}'", item);
     }
+
+
+    for number in (1..8).rev()
+    {
+        println!("\n'{}'!", number);
+    }
+    println!("LIFTOFF");
 }
