@@ -4,9 +4,9 @@ pub fn add(left: usize, right: usize) -> usize {
 mod network {
     fn connect() {
     }
-}
-mod clinet{
-    fn connect(){
+    mod clinet{
+        fn connect(){
+        }
     }
 }
 
