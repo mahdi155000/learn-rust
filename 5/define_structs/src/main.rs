@@ -13,4 +13,10 @@ fn main() {
         active: true,
         sign_in_count: 1,
     };
+    let user2 = User {
+        email: "test2@example.com",
+        username: "test2",
+        active: true,
+        sign_in_count: 1,
+    };
 }
