@@ -2,6 +2,15 @@ enum IpAddrKind() {
     V4,
     V6,
 }
+struct Ipv4Addr {
+    // --snip--
+}
+struct Ipv6Addr {
+    // --snip--
+}
+enum IPAddr {
+    V4(Ipv4Addr),
+    V6(Ipv6Addr),
 struct IpAddr {
     kind: IpAddrKind,
     address: String,
