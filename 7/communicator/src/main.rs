@@ -19,5 +19,6 @@ fn main() {
     let red = Red;
     let yellow = Yellow;
     let green = TrafficLight::Green;
+    println!("hello world");
     
 }
