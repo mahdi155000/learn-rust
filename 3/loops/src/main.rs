@@ -18,4 +18,9 @@ fn main(){
         println!("The value is: {}", a[index]);
         index = index + 1;
      }
+     println!("-------------------------------------");
+
+     for item in a.iter() {
+        println!("{}", item);
+     }
 }
