@@ -1,17 +1,21 @@
 fn main() {
-    let mut user1 = User{
-        email: String::from("mahdi155000@gmail.com"),
-        username: String::from("mahdi155000"),
+   
+}
+
+fn build_user(email:String, username: String) -> User{
+    User{
+        email,
+        username,
         active: true,
-        sign_in_count: 0,
-    };
-    
+        sign_in_count: 1,
+
+    }
 }
 
 
 struct User {
-    username: String,
-    email: String,
+    username: username,
+    email: email,
     sign_in_count: u32,
     active: bool,
 }
