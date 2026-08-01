@@ -1,27 +1,23 @@
 fn main() {
-    let four = IpAddrKind::V4;
-    let six = IpAddrKind::V6;
+    println!("Hello world!");
 }
 
 
-
-
-enum IpAddrKind {
-    V4,
-    V6,
+enum Coin {
+    Penny,
+    Nickel,
+    Dime,
+    Quarter,
 }
 
-struct IpAddr {
-    kind: IpAddrKind,
-    address: String,
+fn value_in_cents(coin: Coin) -> u32{
+    match coin {
+        Coin::Penny => {
+            println!("Lucky Penny!");
+            1
+        },
+        Coin::Nickel => 5,
+        Coin::Dime => 10,
+        Coin::Quarter => 25,
+    }
 }
-
-let home = IpAddr {
-    kind: IpAddrKind::v4,
-    address: String::from("127.0.0.1"),
-};
-
-let loopback = IpAddr {
-    kind: IpAddrKind::V6,
-    address: String::from("::1"),
-};
